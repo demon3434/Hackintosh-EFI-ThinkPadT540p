@@ -15,6 +15,7 @@
 | 内存 | 三星 DDR4 1600 8G*2 |
 | 硬盘 | 三星 860EVO，Sata 500GB |
 | 显卡 | Intel HD Graphics 4600 |
+| 屏幕 | 3K高分屏 |
 | 无线网卡 | Intel 7260AC |
 
 ### 完成度

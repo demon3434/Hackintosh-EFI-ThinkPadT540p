@@ -28,7 +28,15 @@
 + 引导界面图形化，开机有“duang”声音
 
 ### 缺陷
-+ 睡眠花屏，禁用睡眠、休眠
++ 睡眠花屏，禁用睡眠、休眠（转发CSDN教程原文地址：[黑苹果完全禁用睡眠](https://blog.csdn.net/fjh1997/article/details/112559539)）
+```bash
+# Before doing anything, save your current configuration using
+pmset -g
+# To disable sleep 彻底禁用
+sudo pmset -a sleep 0; sudo pmset -a hibernatemode 0; sudo pmset -a disablesleep 1;
+# And to go back to normal 还原
+sudo pmset -a sleep 1; sudo pmset -a hibernatemode [original hibernatemode value]; sudo pmset -a disablesleep 0;
+```
 + Intel网卡，蓝牙不稳定(蓝牙连接音响正常，声音不卡顿；连接罗技AnyWhere3蓝牙鼠标失败)，且隔空投送不能用
 
 ### 备注
